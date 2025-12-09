@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --dark: #000000;
+    --dark-80: color-mix(in srgb, var(--dark) 80%, var(--light), 20%);
+    --dark-10: color-mix(in srgb, var(--dark) 10%, transparent);
+
+    --light: #ffffff;
+
+    --primary-green: #22361D;
+    --secondary-green: #9FC896;
+
+    --level-0: #E9EAE1;
+    --level-1: #DFDBC8;
+    --level-2: #AC9763;
+
+    --pink: #E4C2B6;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+
+    color: var(--primary-green);
+
+    font-family: 'Instrument Sans', sans-serif;
+    font-style: normal;
+
+    background-color: var(--level-0);
+}
+
+html {
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Federo';
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+p {
+    font-family: 'Instrument Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.no-margin {
+    margin: 0;
+}

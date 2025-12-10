@@ -76,6 +76,7 @@
 			{/each}
 		</div>
 	</div>
+    <div class="spacer"></div>
 </main>
 
 <style>
@@ -90,6 +91,10 @@
 
 		box-sizing: border-box;
 	}
+
+    .spacer {
+        height: 40px;
+    }
 
 	.hero {
 		box-sizing: border-box;

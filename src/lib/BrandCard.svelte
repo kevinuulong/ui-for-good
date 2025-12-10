@@ -2,6 +2,7 @@
 	import Button from './Button.svelte';
 
 	let { name, logo, score, id } = $props();
+
 </script>
 
 <div class="card">
@@ -9,7 +10,7 @@
 		<img src={logo} alt={`${name} logo`} />
 		<p class="no-margin">{name}</p>
 	</div>
-	<div class="rating">
+	<div class={['rating']}>
 		<div class="score">{score?.toLocaleString(undefined, { style: 'percent' })}</div>
 		<div class="buttons">
 			{#if id !== undefined}
@@ -60,6 +61,10 @@
 
 		align-self: stretch;
 		flex-grow: 1;
+
+		&.pink {
+			background-color: var(--pink);
+		}
 	}
 
 	img {

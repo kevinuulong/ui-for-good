@@ -7,18 +7,27 @@
 
 	import AddIcon from '$lib/icons/Add.svg?raw';
 	import Review from '$lib/Review.svelte';
+	import ReviewModal from '$lib/ReviewModal.svelte';
 
 	const brand = $state(brands[$page.params.brand]);
+
+	let isModalOpen = $state(false);
+
+	function toggleModal() {
+		isModalOpen = !isModalOpen;
+	}
 </script>
 
 <main>
+	<ReviewModal bind:open={isModalOpen} bind:reviews={brand.reviews}/>
+
 	<div class="scorecard">
 		<BrandCard name={brand.name} score={brand.score} logo={brand.logo} />
 	</div>
 	<div class="reviews">
 		<div class="heading">
 			<h2 class="no-margin">Reviews</h2>
-			<Button icon={AddIcon} type="hero" />
+			<Button icon={AddIcon} type="hero" onclick={toggleModal} />
 		</div>
 		<div class="reviews-list">
 			{#each brand.reviews as review}

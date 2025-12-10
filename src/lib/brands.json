@@ -91,5 +91,36 @@
                 "condition": "Like New"
             }
         ]
+    },
+    {
+        "id": 3,
+        "name": "Temu",
+        "logo": "/brands/temu.svg",
+        "description": "An online marketplace offering extremely low-priced goods across a wide range of categories, focusing on trending items with rapid turnover.",
+        "keywords": "gadgets, cheap, disposable, home goods, novelty, apparel, electronics",
+        "score": 0.15,
+        "reviews": [
+            {
+                "author": "Alex G.",
+                "body": "The five-dollar kitchen peeler broke on the third use. The handle snapped right off. It's incredibly cheap, but you truly get what you pay for—a one-time-use item.",
+                "purchased": "2023 (6 months old)",
+                "product": "Stainless Steel Vegetable Peeler",
+                "condition": "Broken"
+            },
+            {
+                "author": "Brittany C.",
+                "body": "The aesthetic storage baskets looked cute in the picture, but they arrived bent and the fabric is already ripping at the seams after holding just a few light items. Not built to last.",
+                "purchased": "2024 (1 month old)",
+                "product": "Collapsible Storage Baskets",
+                "condition": "Poor (Damaged)"
+            },
+            {
+                "author": "Marcus Z.",
+                "body": "Bought a power strip for my garage. It felt lightweight and flimsy. I stopped using it immediately, concerned about fire risk. Definitely not a long-term purchase.",
+                "purchased": "2023 (3 months old)",
+                "product": "Universal Power Strip",
+                "condition": "Unsafe (Retired)"
+            }
+        ]
     }
 ]

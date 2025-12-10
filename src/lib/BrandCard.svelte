@@ -70,6 +70,8 @@
 	img {
 		width: 48px;
 		height: 48px;
+
+		object-fit: contain;
 	}
 
 	.score {

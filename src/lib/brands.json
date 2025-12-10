@@ -4,7 +4,16 @@
         "name": "Le Creuset",
         "logo": "/brands/le_creuset.svg",
         "description": "Visit Now to Browse Over 1,400 Cast Iron, Stainless Steel & Non-Stick Pots, Pans & More. Shop By Color, Material or Collection and Design the Perfect Ensemble for Your kitchen.",
-        "keywords": "cast iron, stainless, cookware, bakeware, pots, pans, kitchen & bar, tools",
+        "keywords": [
+            "cast iron",
+            "stainless",
+            "cookware",
+            "bakeware",
+            "pots",
+            "pans",
+            "kitchen & bar",
+            "tools"
+        ],
         "score": 0.99,
         "reviews": [
             {
@@ -32,31 +41,43 @@
     },
     {
         "id": 1,
-        "name": "Lodge Cast Iron",
-        "logo": "/brands/lodge.svg",
-        "description": "Shop the original home of American cast iron. Create kitchen memories with Lodge Cast Iron skillets, dutch ovens, carbon steel, pans, bakeware & more.",
-        "keywords": "cast iron, stainless, cookware, bakeware, pots, pans, kitchen & bar, tools",
-        "score": 0.9,
+        "name": "Patagonia",
+        "logo": "/brands/patagonia.jpeg",
+        "description": "A leader in outdoor apparel and gear, renowned for its commitment to durability, sustainability, and its 'Ironclad Guarantee' for repair, replacement, or refund. They actively encourage customers to repair gear through the Worn Wear program rather than replace it.",
+        "keywords": [
+            "outdoor gear",
+            "jackets",
+            "apparel",
+            "fleece",
+            "sustainable",
+            "repairable",
+            "lifetime warranty",
+            "activewear",
+            "shirt",
+            "pants",
+            "shorts"
+        ],
+        "score": 0.98,
         "reviews": [
             {
-                "author": "Ethan H.",
-                "body": "The 12-inch skillet is a beast. The pre-seasoning was great, but the seasoning I've built up over a decade is incredible. It's my go-to for everything from frying eggs to searing steaks.",
-                "purchased": "2015 (10 years old)",
-                "product": "12-Inch Cast Iron Skillet",
-                "condition": "Excellent (Better with age)"
+                "author": "Michelle C.",
+                "body": "I have had a Synchilla fleece since the 90's and it looks practically new! Their products are amazing quality and really last.",
+                "purchased": "1995 (30 years old)",
+                "product": "Synchilla Snap-T Fleece Pullover",
+                "condition": "Excellent"
             },
             {
-                "author": "Sarah W.",
-                "body": "You can't beat the value and durability. I take my Lodge camp oven everywhere—from the kitchen to over a campfire. It's rustic, reliable, and completely indestructible.",
-                "purchased": "2011 (14 years old)",
-                "product": "Cast Iron Camp Dutch Oven",
-                "condition": "Used (Heavy Patina)"
+                "author": "Alex F.",
+                "body": "My Black Hole duffel bag has traveled the world and been abused in airports for over a decade. It's scuffed, but all the zippers and seams are perfect. It's truly a beast of a bag.",
+                "purchased": "2014 (11 years old)",
+                "product": "Black Hole Duffel Bag",
+                "condition": "Used"
             },
             {
-                "author": "David K.",
-                "body": "I use the grill pan year-round. It's a bit of work to clean, but the heat retention is worth it for perfect indoor grill marks. Still performs flawlessly after 7 years.",
-                "purchased": "2018 (7 years old)",
-                "product": "Cast Iron Grill Pan",
+                "author": "Sarah D.",
+                "body": "My daughter's down jacket got a tear. I sent it in through the Worn Wear program, and they repaired it perfectly for a very reasonable charge. It's been extended by years thanks to their service.",
+                "purchased": "2020 (5 years old)",
+                "product": "Down Sweater Jacket",
                 "condition": "Good"
             }
         ]
@@ -66,7 +87,16 @@
         "name": "Staub",
         "logo": "/brands/staub.png",
         "description": "Equally functional and beautiful - Staub cast iron cookware and ceramic bakeware move effortlessly from stovetop to oven to tabletop.",
-        "keywords": "cast iron, stainless, cookware, bakeware, pots, pans, kitchen & bar, tools",
+        "keywords": [
+            "cast iron",
+            "stainless",
+            "cookware",
+            "bakeware",
+            "pots",
+            "pans",
+            "kitchen & bar",
+            "tools"
+        ],
         "score": 0.95,
         "reviews": [
             {
@@ -88,16 +118,64 @@
                 "body": "My most used pot is the braiser. The enamel is incredibly resistant to wear. It was pricey, but considering I'll never need to replace it, it was worth every penny.",
                 "purchased": "2022 (3 years old)",
                 "product": "Cast Iron Braiser",
-                "condition": "Like New"
+                "condition": "Very Good"
             }
         ]
     },
     {
         "id": 3,
+        "name": "Lodge Cast Iron",
+        "logo": "/brands/lodge.svg",
+        "description": "Shop the original home of American cast iron. Create kitchen memories with Lodge Cast Iron skillets, dutch ovens, carbon steel, pans, bakeware & more.",
+        "keywords": [
+            "cast iron",
+            "stainless",
+            "cookware",
+            "bakeware",
+            "pots",
+            "pans",
+            "kitchen & bar",
+            "tools"
+        ],
+        "score": 0.9,
+        "reviews": [
+            {
+                "author": "Ethan H.",
+                "body": "The 12-inch skillet is a beast. The pre-seasoning was great, but the seasoning I've built up over a decade is incredible. It's my go-to for everything from frying eggs to searing steaks.",
+                "purchased": "2015 (10 years old)",
+                "product": "12-Inch Cast Iron Skillet",
+                "condition": "Excellent"
+            },
+            {
+                "author": "Sarah W.",
+                "body": "You can't beat the value and durability. I take my Lodge camp oven everywhere—from the kitchen to over a campfire. It's rustic, reliable, and completely indestructible.",
+                "purchased": "2011 (14 years old)",
+                "product": "Cast Iron Camp Dutch Oven",
+                "condition": "Used"
+            },
+            {
+                "author": "David K.",
+                "body": "I use the grill pan year-round. It's a bit of work to clean, but the heat retention is worth it for perfect indoor grill marks. Still performs flawlessly after 7 years.",
+                "purchased": "2018 (7 years old)",
+                "product": "Cast Iron Grill Pan",
+                "condition": "Good"
+            }
+        ]
+    },
+    {
+        "id": 4,
         "name": "Temu",
         "logo": "/brands/temu.svg",
         "description": "An online marketplace offering extremely low-priced goods across a wide range of categories, focusing on trending items with rapid turnover.",
-        "keywords": "gadgets, cheap, disposable, home goods, novelty, apparel, electronics",
+        "keywords": [
+            "gadgets",
+            "cheap",
+            "disposable",
+            "home goods",
+            "novelty",
+            "apparel",
+            "electronics"
+        ],
         "score": 0.15,
         "reviews": [
             {
@@ -105,21 +183,304 @@
                 "body": "The five-dollar kitchen peeler broke on the third use. The handle snapped right off. It's incredibly cheap, but you truly get what you pay for—a one-time-use item.",
                 "purchased": "2023 (6 months old)",
                 "product": "Stainless Steel Vegetable Peeler",
-                "condition": "Broken"
+                "condition": "Unusable"
             },
             {
                 "author": "Brittany C.",
                 "body": "The aesthetic storage baskets looked cute in the picture, but they arrived bent and the fabric is already ripping at the seams after holding just a few light items. Not built to last.",
                 "purchased": "2024 (1 month old)",
                 "product": "Collapsible Storage Baskets",
-                "condition": "Poor (Damaged)"
+                "condition": "Bad"
             },
             {
                 "author": "Marcus Z.",
                 "body": "Bought a power strip for my garage. It felt lightweight and flimsy. I stopped using it immediately, concerned about fire risk. Definitely not a long-term purchase.",
                 "purchased": "2023 (3 months old)",
                 "product": "Universal Power Strip",
-                "condition": "Unsafe (Retired)"
+                "condition": "Bad"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Filson",
+        "logo": "/brands/filson.jpeg",
+        "description": "Established in 1897, Filson is renowned for making products using robust materials like Tin Cloth and Mackinaw Wool, designed to withstand the harshest outdoor use. Known for their lifetime repair service.",
+        "keywords": [
+            "outdoor gear",
+            "bags",
+            "apparel",
+            "waxed canvas",
+            "wool",
+            "rugged",
+            "lifetime guarantee",
+            "jackets",
+            "briefcase"
+        ],
+        "score": 0.97,
+        "reviews": [
+            {
+                "author": "Robert A.",
+                "body": "My Original Briefcase is 15 years old. The cotton twill fabric and leather straps are essentially indestructible. It looks better now with the wear and patina than it did new.",
+                "purchased": "2010 (15 years old)",
+                "product": "Original Briefcase (Twill)",
+                "condition": "Excellent"
+            },
+            {
+                "author": "Jamie B.",
+                "body": "My Tin Cloth jacket is warm, water-resistant, and has held up against thorns and abrasion in the woods. While the fit is a little boxy, the durability is second to none. It feels like wearing armor.",
+                "purchased": "2018 (7 years old)",
+                "product": "Tin Cloth Short Lined Cruiser Jacket",
+                "condition": "Very Good"
+            },
+            {
+                "author": "Chris P.",
+                "body": "I sent my Mackinaw Wool Vest in for a repair after a small tear near the pocket. They fixed it perfectly and quickly under their service program. Great quality and commitment to long-term ownership.",
+                "purchased": "2021 (4 years old)",
+                "product": "Mackinaw Wool Vest",
+                "condition": "Good"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Dyson",
+        "logo": "/brands/dyson.png",
+        "description": "A British technology company known for innovative, high-suction vacuum cleaners, fans, and hair care products. While offering good performance, products often rely on complex electronic parts and batteries, leading to frequent replacement needs.",
+        "keywords": [
+            "vacuum",
+            "cordless",
+            "electronics",
+            "high tech",
+            "household appliance",
+            "battery life",
+            "expensive",
+            "air purifier"
+        ],
+        "score": 0.4,
+        "reviews": [
+            {
+                "author": "Kim T.",
+                "body": "I had a corded Ball vacuum that lasted 9 years, only needing a couple of motor replacements which were easy to do. That was a tank. I wish their cordless models were built with the same longevity.",
+                "purchased": "2013 (12 years old)",
+                "product": "Ball Animal Vacuum (Corded)",
+                "condition": "Used"
+            },
+            {
+                "author": "Ben S.",
+                "body": "My V10 stick vacuum lasted almost exactly 3 years before the battery degraded significantly, making it unusable for a full house clean. The suction is great, but the lifespan for the high price is not worth it.",
+                "purchased": "2021 (4 years old)",
+                "product": "V10 Cordless Vacuum",
+                "condition": "Unusable"
+            },
+            {
+                "author": "Maria F.",
+                "body": "I take great care of my V8, cleaning the filters regularly. I've had to replace the battery once, but it is now 6 years old and still running strong for daily cat hair cleanup. Maintenance is key with these battery models.",
+                "purchased": "2019 (6 years old)",
+                "product": "V8 Cordless Vacuum",
+                "condition": "Good"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Shein",
+        "logo": "/brands/shein.svg",
+        "description": "A Chinese ultra-fast fashion retailer known for an extremely rapid turnover of thousands of new styles at rock-bottom prices. Products are typically made with the cheapest synthetic fabrics for single-event use.",
+        "keywords": [
+            "fast fashion",
+            "apparel",
+            "cheap",
+            "synthetic fabric",
+            "disposable",
+            "novelty",
+            "womens clothing",
+            "trends"
+        ],
+        "score": 0.05,
+        "reviews": [
+            {
+                "author": "Chloe S.",
+                "body": "The dress I bought for a concert looked cute, but the stitching came apart on the first wash, and the material stretched out. It was a one-time-wear item. Literally falls apart after 1-2 wears.",
+                "purchased": "2024 (2 months old)",
+                "product": "Summer Dress",
+                "condition": "Bad"
+            },
+            {
+                "author": "Jordan L.",
+                "body": "I bought some inexpensive earrings and a bag. The earrings broke within hours (held together with glue, not stitching!), and the bag is already ripping. You can tell they use the absolute cheapest materials.",
+                "purchased": "2024 (1 month old)",
+                "product": "Straw Shoulder Bag",
+                "condition": "Bad"
+            },
+            {
+                "author": "Danielle M.",
+                "body": "My $8 t-shirt faded and got a hole after two uses and one wash. It's affordable, but I've had to replace pieces so quickly it's not worth the money in the long run. Better to buy secondhand.",
+                "purchased": "2023 (6 months old)",
+                "product": "Graphic T-Shirt",
+                "condition": "Unusable"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Zwilling J.A. Henckels",
+        "logo": "/brands/zwilling.svg",
+        "description": "A German company known for high-end cutlery and kitchenware. The premium 'Zwilling' line features high-carbon stainless steel and is often forged with ice-hardened blades (Friodur technology) for superior durability, edge retention, and corrosion resistance.",
+        "keywords": [
+            "cutlery",
+            "kitchen knives",
+            "forged steel",
+            "german engineering",
+            "cookware",
+            "premium",
+            "lifetime warranty",
+            "tools"
+        ],
+        "score": 0.94,
+        "reviews": [
+            {
+                "author": "David C.",
+                "body": "My set of Zwilling Pro knives has lasted over a decade. The quality of the forged steel and the balance in the hand is excellent. They hold an edge better than any other knife I've owned.",
+                "purchased": "2015 (10 years old)",
+                "product": "Pro Chef's Knife",
+                "condition": "Excellent"
+            },
+            {
+                "author": "Emily K.",
+                "body": "The Twin Signature set, which is stamped, is still a massive upgrade from cheap knives. They need sharpening more often than the Pro series, but they are great for daily home cooking and show no signs of major wear.",
+                "purchased": "2020 (5 years old)",
+                "product": "Twin Signature Paring Knife",
+                "condition": "Very Good"
+            },
+            {
+                "author": "Ryan P.",
+                "body": "I inherited an old Zwilling carving fork from my grandfather. It's probably 50 years old and looks pristine. True testament to their build quality.",
+                "purchased": "1975 (50 years old)",
+                "product": "Vintage Carving Fork",
+                "condition": "Excellent"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Wüsthof",
+        "logo": "/brands/wusthof.png",
+        "description": "A family-owned German company specializing in high-quality forged cutlery since 1814. Known for their Classic and Ikon lines, which feature full-tang, triple-riveted handles and high-carbon stainless steel hardened to 58 HRC, making them robust 'workhorse' knives.",
+        "keywords": [
+            "cutlery",
+            "kitchen knives",
+            "forged steel",
+            "german engineering",
+            "chef's knife",
+            "premium",
+            "workhorse",
+            "tools"
+        ],
+        "score": 0.95,
+        "reviews": [
+            {
+                "author": "Chef Alex M.",
+                "body": "The Wüsthof Classic 8-inch Chef's Knife is the best workhorse knife I've ever used. After two years of professional kitchen abuse, it just needed a good professional sharpening and it's back to new. The durability is unmatched.",
+                "purchased": "2023 (2 years old)",
+                "product": "Classic Chef's Knife",
+                "condition": "Very Good"
+            },
+            {
+                "author": "Julia R.",
+                "body": "My Wüsthof set is over 20 years old. I always hand wash them, and they are still razor-sharp with regular honing. The handles show no fading or wear. A true Buy It For Life purchase.",
+                "purchased": "2005 (20 years old)",
+                "product": "Classic Knife Block Set",
+                "condition": "Excellent"
+            },
+            {
+                "author": "Sam B.",
+                "body": "I have the more affordable Gourmet (stamped) line. They are decent for the price, but they feel lighter and require much more regular honing than my friend's Classic forged knife. Good entry point, though.",
+                "purchased": "2022 (3 years old)",
+                "product": "Gourmet Utility Knife",
+                "condition": "Good"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Victorinox",
+        "logo": "/brands/victorinox.svg",
+        "description": "The original maker of the Swiss Army Knife, now also a respected producer of professional and home kitchen cutlery. Known for stamped blades with high-quality stainless steel (55-56 HRC) and highly functional, ergonomic Fibrox handles, offering the best value-to-performance ratio in cutlery.",
+        "keywords": [
+            "swiss army knife",
+            "cutlery",
+            "kitchen knives",
+            "value",
+            "portable tools",
+            "stainless steel",
+            "ergonomic",
+            "tools"
+        ],
+        "score": 0.88,
+        "reviews": [
+            {
+                "author": "Maria S.",
+                "body": "The Victorinox Fibrox Pro Chef's Knife is what I use daily. It's inexpensive, incredibly sharp, and its softer steel is forgiving if I accidentally hit bone. I've been using the same one for 8 years, and it's a champ.",
+                "purchased": "2017 (8 years old)",
+                "product": "Fibrox Pro Chef's Knife",
+                "condition": "Good"
+            },
+            {
+                "author": "Thomas W.",
+                "body": "My Swiss Army knife (Huntsman model) has been on my keychain for 15 years. The tools are slightly wobbly now, but every single function still works perfectly. It is the definition of rugged, small-scale durability.",
+                "purchased": "2010 (15 years old)",
+                "product": "Huntsman Swiss Army Knife",
+                "condition": "Used"
+            },
+            {
+                "author": "Jess H.",
+                "body": "I buy Victorinox paring knives in bulk for my restaurant. They may not be as pretty as Wüsthof, but they are reliable, hold a good edge for a long time, and the price makes them easy to replace if a staff member loses one.",
+                "purchased": "2024 (6 months old)",
+                "product": "Paring Knife",
+                "condition": "Very Good"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Farberware",
+        "logo": "/brands/farberware.png",
+        "description": "A long-standing, budget-friendly cookware brand focused primarily on accessibility. Their products, especially non-stick and lower-gauge stainless steel, are often criticized for poor heat distribution, thin construction, and short non-stick coating life.",
+        "keywords": [
+            "cookware",
+            "pots",
+            "pans",
+            "budget",
+            "non-stick",
+            "thin steel",
+            "home goods",
+            "disposable",
+            "cast-iron",
+            "knife"
+        ],
+        "score": 0.25,
+        "reviews": [
+            {
+                "author": "Steve P.",
+                "body": "The aluminum non-stick frying pan was a waste of money. The handle became loose after a few weeks, and the non-stick coating started scratching and peeling after the third month. Very short lifespan.",
+                "purchased": "2024 (6 months old)",
+                "product": "Aluminum Non-Stick Skillet",
+                "condition": "Unusable"
+            },
+            {
+                "author": "Brenda H.",
+                "body": "I inherited an old Farberware stainless steel pot that’s a tank, but the modern stainless set I bought is flimsy. The bottoms warped slightly from heat after a year, making them rock on my stovetop. Quality has dropped significantly.",
+                "purchased": "2022 (3 years old)",
+                "product": "Modern Stainless Steel Set",
+                "condition": "Bad"
+            },
+            {
+                "author": "Dennis G.",
+                "body": "My paring knife broke when I was cutting a hard vegetable. The thin metal of the tang snapped inside the handle. Definitely not full-tang construction and not built for anything beyond light work.",
+                "purchased": "2023 (1 year old)",
+                "product": "Kitchen Knife Set",
+                "condition": "Unusable"
             }
         ]
     }

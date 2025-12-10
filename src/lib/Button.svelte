@@ -23,11 +23,8 @@
 <style>
 	button,
 	a {
-		/* Frame 6 */
-
 		box-sizing: border-box;
 
-		/* Auto layout */
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -45,6 +42,8 @@
 		line-height: 29px;
 
 		border: none;
+
+		text-decoration: none;
 	}
 
 	.icon-button {
@@ -77,12 +76,19 @@
 	}
 
 	.secondary {
-		color: var(--Primary-UC-Black);
-		background: var(--Secondary-Grey, #f3f3f3);
+		border: 1px solid var(--level-2);
+		color: var(--level-2);
+		background: var(--primary-green);
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        height: auto;
+
 
 		&:hover,
 		&:focus {
-			background-color: color-mix(in srgb, var(--Primary-UC-Black) 10%, var(--Secondary-Grey));
+			background-color: color-mix(in srgb, var(--dark) 10%, var(--primary-green));
 		}
 	}
 
@@ -92,7 +98,7 @@
 
 		&:hover,
 		&:focus {
-			background-color: var(--dark-10);
+			background-color: color-mix(in srgb, var(--dark) 10%, transparent);
 		}
 	}
 

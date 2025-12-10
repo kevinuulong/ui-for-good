@@ -3,6 +3,37 @@
 	import ArrowRightAltIcon from '$lib/icons/ArrowRightAlt.svg?raw';
 	import Polaroid from '$lib/assets/redwood_polaroid.jpg';
 	import Searchbar from '$lib/Searchbar.svelte';
+	import BrandCard from '$lib/BrandCard.svelte';
+
+	import brands from '$lib/brands.json';
+
+	import Fuse from 'fuse.js';
+
+	let searchTerm = $state('');
+
+	const fuse = new Fuse(brands, {
+		keys: ['name', 'description', 'keywords'],
+		findAllMatches: true,
+        ignoreDiacritics: true,
+        shouldSort: false,
+        threshold: 0.25
+	});
+
+	const filtered = $derived.by(() => {
+		if (searchTerm.trim() === '') {
+			return brands;
+		}
+		const results = fuse.search(searchTerm);
+		return results.map((result) => result.item);
+	});
+
+	const recommended = $derived.by(() => {
+		return filtered.filter((brand) => brand.score >= 0.8);
+	});
+
+	const avoid = $derived.by(() => {
+		return filtered.filter((brand) => brand.score < 0.8);
+	});
 </script>
 
 <main>
@@ -14,12 +45,37 @@
 				Us too! That’s why we’ve found the products and brands that will last you a lifetime!
 			</p>
 		</div>
-		<Button type="hero" icon={ArrowRightAltIcon}>Browse brands</Button>
+		<Button type="hero" icon={ArrowRightAltIcon} href="#brands">Browse brands</Button>
 		<img src={Polaroid} alt="A Polaroid of a redwood forest" />
 	</div>
 	<div class="search-container">
-        <Searchbar/>
-    </div>
+		<Searchbar bind:value={searchTerm} />
+	</div>
+	<div class="brands-container" id="brands">
+		<div class="heading">
+			<h2 class="no-margin" id="recommend">Brands we recommend</h2>
+			<p class="no-margin">
+				Our community has tried and vetted these brands. We’re confident they make products that are
+				designed to last!
+			</p>
+		</div>
+		<div class="carousel">
+			{#each recommended as brand}
+				<BrandCard name={brand.name} score={brand.score} logo={brand.logo} />
+			{/each}
+		</div>
+		<div class="heading">
+			<h2 class="no-margin" id="avoid">Brands to avoid</h2>
+			<p class="no-margin">
+				Steer clear of these brands! These companies make products destined for the dumps.
+			</p>
+		</div>
+		<div class="carousel">
+			{#each avoid as brand}
+				<BrandCard name={brand.name} score={brand.score} logo={brand.logo} />
+			{/each}
+		</div>
+	</div>
 </main>
 
 <style>
@@ -98,6 +154,27 @@
 		padding: 20px 0px;
 		gap: 40px;
 
-        align-self: stretch;
+		align-self: stretch;
+	}
+
+	.brands-container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0px;
+		gap: 40px;
+		align-self: stretch;
+	}
+
+	.carousel {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		align-content: flex-start;
+		padding: 0px;
+		gap: 40px;
+
+		align-self: stretch;
 	}
 </style>

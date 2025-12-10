@@ -8,6 +8,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<title>Last On Earth</title>
 </svelte:head>
 
 <Navbar />

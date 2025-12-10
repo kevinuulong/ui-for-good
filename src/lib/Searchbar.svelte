@@ -1,10 +1,12 @@
 <script>
 	import SearchIcon from '$lib/icons/Search.svg?raw';
+
+	let { value = $bindable() } = $props();
 </script>
 
 <div class="container">
 	{@html SearchIcon}
-	<input type="text" placeholder="What are you looking for today?" />
+	<input type="text" placeholder="What are you looking for today?" bind:value />
 </div>
 
 <style>
@@ -25,14 +27,14 @@
 
 		color: var(--dark-80);
 
-        &:focus-within {
-            outline: auto;
-        }
+		&:focus-within {
+			outline: auto;
+		}
 	}
 
 	input {
 		/* What are you looking for today? */
-        border: none;
+		border: none;
 
 		font-family: 'Instrument Sans';
 		font-style: normal;
@@ -44,10 +46,10 @@
 		flex: none;
 		order: 1;
 		flex-grow: 1;
-        padding: 20px;
+		padding: 20px;
 
-        &:focus {
-            outline: none;
-        }
+		&:focus {
+			outline: none;
+		}
 	}
 </style>

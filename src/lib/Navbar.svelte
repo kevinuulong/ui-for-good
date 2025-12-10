@@ -51,7 +51,7 @@
 		flex-direction: row;
 		align-items: center;
 		padding: 0px;
-		gap: 40px;
+		gap: 20px;
 
 		flex: none;
 		order: 0;
@@ -64,6 +64,6 @@
 		flex-direction: row;
 		align-items: center;
 		padding: 0px;
-		gap: 40px;
+		gap: 20px;
 	}
 </style>

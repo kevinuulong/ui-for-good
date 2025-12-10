@@ -230,7 +230,7 @@
                 "author": "Jamie B.",
                 "body": "My Tin Cloth jacket is warm, water-resistant, and has held up against thorns and abrasion in the woods. While the fit is a little boxy, the durability is second to none. It feels like wearing armor.",
                 "purchased": "2018 (7 years old)",
-                "product": "Tin Cloth Short Lined Cruiser Jacket",
+                "product": "Tin Cloth Lined Cruiser Jacket",
                 "condition": "Very Good"
             },
             {
@@ -335,7 +335,9 @@
             "cookware",
             "premium",
             "lifetime warranty",
-            "tools"
+            "tools",
+            "knives",
+            "knife"
         ],
         "score": 0.94,
         "reviews": [
@@ -457,7 +459,8 @@
             "home goods",
             "disposable",
             "cast-iron",
-            "knife"
+            "knife",
+            "knives"
         ],
         "score": 0.25,
         "reviews": [

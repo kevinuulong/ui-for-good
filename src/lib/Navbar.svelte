@@ -8,10 +8,10 @@
 
 <nav>
 	<div class="links">
-		<NavbarItem>Brands</NavbarItem>
-		<NavbarItem>Categories</NavbarItem>
+		<NavbarItem href="/#brands">Brands</NavbarItem>
+		<!-- <NavbarItem>Categories</NavbarItem> -->
 	</div>
-	<a href="./" class="logo">
+	<a href="/" class="logo">
 		{@html Logo}
 	</a>
 	<div class="icons">

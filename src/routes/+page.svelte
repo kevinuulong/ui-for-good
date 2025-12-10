@@ -14,9 +14,9 @@
 	const fuse = new Fuse(brands, {
 		keys: ['name', 'description', 'keywords'],
 		findAllMatches: true,
-        ignoreDiacritics: true,
-        shouldSort: false,
-        threshold: 0.25
+		ignoreDiacritics: true,
+		shouldSort: false,
+		threshold: 0.25
 	});
 
 	const filtered = $derived.by(() => {

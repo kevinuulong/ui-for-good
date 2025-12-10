@@ -1,19 +1,19 @@
 <script>
-	let { children } = $props();
+	let { children, href } = $props();
 </script>
 
-<button>
+<a {href}>
 	{@render children()}
-</button>
+</a>
 
 <style>
-	button {
+	a {
 		font-family: 'Instrument Sans';
 		font-style: normal;
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 20px;
-		/* identical to box height */
+
 		text-decoration-line: underline;
 
 		color: var(--primary-green);
@@ -29,8 +29,9 @@
 
 		border-radius: 5px;
 
-        &:hover, &:focus {
-            background-color: var(--dark-10);
-        }
+		&:hover,
+		&:focus {
+			background-color: color-mix(in srgb, var(--dark) 10%, transparent);
+		}
 	}
 </style>

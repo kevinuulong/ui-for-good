@@ -1,7 +1,7 @@
 <script>
-	import Button from "./Button.svelte";
+	import Button from './Button.svelte';
 
-	let { name, logo, score, link, id } = $props();
+	let { name, logo, score, id } = $props();
 </script>
 
 <div class="card">
@@ -10,10 +10,12 @@
 		<p class="no-margin">{name}</p>
 	</div>
 	<div class="rating">
-		<div class="score">{score}</div>
-        <div class="buttons">
-            <Button type="secondary">Read why</Button>
-        </div>
+		<div class="score">{score?.toLocaleString(undefined, { style: 'percent' })}</div>
+		<div class="buttons">
+			{#if id !== undefined}
+				<Button type="secondary" href={`./brand/${id}`}>Read why</Button>
+			{/if}
+		</div>
 	</div>
 </div>
 
@@ -34,7 +36,7 @@
 		border-radius: 10px;
 		overflow: hidden;
 
-        flex-shrink: 0;
+		flex-shrink: 0;
 	}
 
 	.info {

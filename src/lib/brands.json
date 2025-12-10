@@ -1,23 +1,92 @@
 [
     {
         "name": "Le Creuset",
-        "logo": "./brands/le_creuset.svg",
+        "logo": "/brands/le_creuset.svg",
         "description": "Visit Now to Browse Over 1,400 Cast Iron, Stainless Steel & Non-Stick Pots, Pans & More. Shop By Color, Material or Collection and Design the Perfect Ensemble for Your kitchen.",
         "keywords": "cast iron, stainless, cookware, bakeware, pots, pans, kitchen & bar, tools",
-        "score": 0.99
+        "score": 0.99,
+        "reviews": [
+            {
+                "author": "Jane Doe",
+                "body": "My Dutch oven is still holding up just fine! I am going to waffle on about how good this product is because I need to fill some more space to see what happens when text gets wrapped.",
+                "purchased": "2017 (8 years old)",
+                "product": "Dutch Oven",
+                "condition": "Good"
+            },
+            {
+                "author": "Michael S.",
+                "body": "I inherited this skillet from my grandmother. A little Barkeeper's Friend brought the enamel back to life. It's truly a timeless kitchen piece that will last generations.",
+                "purchased": "1995 (30 years old)",
+                "product": "Enameled Cast Iron Skillet",
+                "condition": "Excellent"
+            },
+            {
+                "author": "Olivia R.",
+                "body": "The stoneware set is beautiful and extremely durable. After years of daily use, not a single chip on the mugs or plates. The color still pops like new.",
+                "purchased": "2019 (6 years old)",
+                "product": "Stoneware Dinnerware Set",
+                "condition": "Very Good"
+            }
+        ]
     },
     {
         "name": "Lodge Cast Iron",
-        "logo": "./brands/lodge.svg",
+        "logo": "/brands/lodge.svg",
         "description": "Shop the original home of American cast iron. Create kitchen memories with Lodge Cast Iron skillets, dutch ovens, carbon steel, pans, bakeware & more.",
         "keywords": "cast iron, stainless, cookware, bakeware, pots, pans, kitchen & bar, tools",
-        "score": 0.9
+        "score": 0.9,
+        "reviews": [
+            {
+                "author": "Ethan H.",
+                "body": "The 12-inch skillet is a beast. The pre-seasoning was great, but the seasoning I've built up over a decade is incredible. It's my go-to for everything from frying eggs to searing steaks.",
+                "purchased": "2015 (10 years old)",
+                "product": "12-Inch Cast Iron Skillet",
+                "condition": "Excellent (Better with age)"
+            },
+            {
+                "author": "Sarah W.",
+                "body": "You can't beat the value and durability. I take my Lodge camp oven everywhere—from the kitchen to over a campfire. It's rustic, reliable, and completely indestructible.",
+                "purchased": "2011 (14 years old)",
+                "product": "Cast Iron Camp Dutch Oven",
+                "condition": "Used (Heavy Patina)"
+            },
+            {
+                "author": "David K.",
+                "body": "I use the grill pan year-round. It's a bit of work to clean, but the heat retention is worth it for perfect indoor grill marks. Still performs flawlessly after 7 years.",
+                "purchased": "2018 (7 years old)",
+                "product": "Cast Iron Grill Pan",
+                "condition": "Good"
+            }
+        ]
     },
     {
         "name": "Staub",
-        "logo": "./brands/staub.png",
+        "logo": "/brands/staub.png",
         "description": "Equally functional and beautiful - Staub cast iron cookware and ceramic bakeware move effortlessly from stovetop to oven to tabletop.",
         "keywords": "cast iron, stainless, cookware, bakeware, pots, pans, kitchen & bar, tools",
-        "score": 0.95
+        "score": 0.95,
+        "reviews": [
+            {
+                "author": "Chloe M.",
+                "body": "The self-basting lid on their cocotte is fantastic for braising. The black interior helps hide small stains, and the piece itself is heavy-duty. A true investment that will last decades.",
+                "purchased": "2020 (5 years old)",
+                "product": "Round Cocotte (Dutch Oven)",
+                "condition": "Excellent"
+            },
+            {
+                "author": "Aaron P.",
+                "body": "I bought their ceramic baking dish for holiday meals. It cleans up like a dream and retains heat beautifully for serving. No chips or crazing after years of high-heat use.",
+                "purchased": "2016 (9 years old)",
+                "product": "Ceramic Rectangular Baking Dish",
+                "condition": "Very Good"
+            },
+            {
+                "author": "Laura B.",
+                "body": "My most used pot is the braiser. The enamel is incredibly resistant to wear. It was pricey, but considering I'll never need to replace it, it was worth every penny.",
+                "purchased": "2022 (3 years old)",
+                "product": "Cast Iron Braiser",
+                "condition": "Like New"
+            }
+        ]
     }
 ]

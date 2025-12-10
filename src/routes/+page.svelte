@@ -61,7 +61,7 @@
 		</div>
 		<div class="carousel">
 			{#each recommended as brand}
-				<BrandCard name={brand.name} score={brand.score} logo={brand.logo} />
+				<BrandCard {...brand} />
 			{/each}
 		</div>
 		<div class="heading">
@@ -72,7 +72,7 @@
 		</div>
 		<div class="carousel">
 			{#each avoid as brand}
-				<BrandCard name={brand.name} score={brand.score} logo={brand.logo} />
+				<BrandCard {...brand} />
 			{/each}
 		</div>
 	</div>

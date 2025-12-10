@@ -8,7 +8,7 @@
 	import AddIcon from '$lib/icons/Add.svg?raw';
 	import Review from '$lib/Review.svelte';
 
-	const brand = brands[$page.params.brand];
+	const brand = $state(brands[$page.params.brand]);
 </script>
 
 <main>
@@ -20,9 +20,11 @@
 			<h2 class="no-margin">Reviews</h2>
 			<Button icon={AddIcon} type="hero" />
 		</div>
-		{#each brand.reviews as review}
-			<Review {...review} />
-		{/each}
+		<div class="reviews-list">
+			{#each brand.reviews as review}
+				<Review {...review} />
+			{/each}
+		</div>
 	</div>
 </main>
 
@@ -48,6 +50,14 @@
 		gap: 40px;
 
 		flex-grow: 1;
+	}
+
+	.reviews-list {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0px;
+		gap: 20px;
 	}
 
 	.heading {

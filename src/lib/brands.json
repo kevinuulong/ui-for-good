@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "name": "Le Creuset",
         "logo": "/brands/le_creuset.svg",
         "description": "Visit Now to Browse Over 1,400 Cast Iron, Stainless Steel & Non-Stick Pots, Pans & More. Shop By Color, Material or Collection and Design the Perfect Ensemble for Your kitchen.",
@@ -30,6 +31,7 @@
         ]
     },
     {
+        "id": 1,
         "name": "Lodge Cast Iron",
         "logo": "/brands/lodge.svg",
         "description": "Shop the original home of American cast iron. Create kitchen memories with Lodge Cast Iron skillets, dutch ovens, carbon steel, pans, bakeware & more.",
@@ -60,6 +62,7 @@
         ]
     },
     {
+        "id": 2,
         "name": "Staub",
         "logo": "/brands/staub.png",
         "description": "Equally functional and beautiful - Staub cast iron cookware and ceramic bakeware move effortlessly from stovetop to oven to tabletop.",
